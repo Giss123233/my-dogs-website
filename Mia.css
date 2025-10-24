@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería | Mía y Loki</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>📸 Galería</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="mia.html">Mía</a>
+      <a href="loki.html">Luna</a>
+      <a href="notebook.html" class="active">Galería</a>
+    </nav>
+  </header>
+
+  <section class="galeria">
+    <img src="img/mia1.jpg" alt="Mía feliz">
+    <img src="img/luna1.jpg" alt="Luna descansando">
+    <img src="img/mia2.jpg" alt="Mía corriendo">
+    <img src="img/luna2.jpg" alt="Luna jugando">
+    <img src="img/juntas.jpg" alt="Mía y Luna juntas">
+  </section>
+
+  <footer>
+    <p>Hecho con amor por Giselle 🐾</p>
+  </footer>
+</body>
+</html>
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff8f2;
+  color: #444;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffd6a5;
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 2px solid #ffb347;
+}
+
